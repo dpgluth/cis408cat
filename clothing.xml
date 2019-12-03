@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.5
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1:3306
+- Generation Time: Dec 03, 2019 at 01:56 AM
+- Server version: 5.7.26
+- PHP Version: 7.2.18
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="group_project" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="clothing">
+                CREATE TABLE `clothing` (
+                  `name` varchar(50) DEFAULT NULL,
+                  `price` varchar(8) DEFAULT NULL,
+                  `rating` varchar(3) DEFAULT NULL,
+                  `img` longblob,
+                  `pglink` varchar(255) DEFAULT NULL,
+                  `type` char(20) DEFAULT NULL,
+                  `dbidnum` varchar(5) DEFAULT NULL
+                ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'group_project'
+    -->
+    <database name="group_project">
+        <!-- Table clothing -->
+        <table name="clothing">
+            <column name="name">Brown Plaid Flannel</column>
+            <column name="price">$30.00</column>
+            <column name="rating">5/5</column>
+            <column name="img"></column>
+            <column name="pglink">/brownplaid.html</column>
+            <column name="type">womenshirt</column>
+            <column name="dbidnum">1</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Green Crop Top</column>
+            <column name="price">$20.00</column>
+            <column name="rating">4/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshirt</column>
+            <column name="dbidnum">2</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Black Patterened Short Sleeved Shirt</column>
+            <column name="price">$45.00</column>
+            <column name="rating">5/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshirt</column>
+            <column name="dbidnum">3</column>
+        </table>
+        <table name="clothing">
+            <column name="name">White Sweater</column>
+            <column name="price">$60.00</column>
+            <column name="rating">5/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshirt</column>
+            <column name="dbidnum">4</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Grey Henley Top</column>
+            <column name="price">$15.00</column>
+            <column name="rating">4/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshirt</column>
+            <column name="dbidnum">5</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Black Tank Top</column>
+            <column name="price">$10.00</column>
+            <column name="rating">3/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshirt</column>
+            <column name="dbidnum">6</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Blue Sweater</column>
+            <column name="price">$50.00</column>
+            <column name="rating">3/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshirt</column>
+            <column name="dbidnum">7</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Purple Sweatshirt</column>
+            <column name="price">$39.00</column>
+            <column name="rating">5/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshirt</column>
+            <column name="dbidnum">8</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Grey Sweater</column>
+            <column name="price">$44.00</column>
+            <column name="rating">3/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshirt</column>
+            <column name="dbidnum">9</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Grey Rollneck Sweater</column>
+            <column name="price">$60.00</column>
+            <column name="rating">4/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshirt</column>
+            <column name="dbidnum">10</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Brown Plaid Flared Bottoms</column>
+            <column name="price">$55.00</column>
+            <column name="rating">3/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenbottom</column>
+            <column name="dbidnum">11</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Light Blue Destroyed Denim Bottoms</column>
+            <column name="price">$80.00</column>
+            <column name="rating">5/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenbottom</column>
+            <column name="dbidnum">12</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Red Mini Skirt Bottom</column>
+            <column name="price">$45.00</column>
+            <column name="rating">3/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenbottom</column>
+            <column name="dbidnum">13</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Light Wash Denim Cropped Bottoms</column>
+            <column name="price">$75.00</column>
+            <column name="rating">5/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenbottom</column>
+            <column name="dbidnum">14</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Brown Patterned Skirt Bottom</column>
+            <column name="price">$25.00</column>
+            <column name="rating">3/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenbottom</column>
+            <column name="dbidnum">15</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Green Paper Bag Bottoms</column>
+            <column name="price">$50.00</column>
+            <column name="rating">5/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenbottom</column>
+            <column name="dbidnum">16</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Black Denim Bottoms</column>
+            <column name="price">$55.00</column>
+            <column name="rating">2/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenbottom</column>
+            <column name="dbidnum">17</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Beige Ankle Bottoms</column>
+            <column name="price">$30.00</column>
+            <column name="rating">1/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenbottom</column>
+            <column name="dbidnum">18</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Grey Utility Jogger Bottoms</column>
+            <column name="price">$65.00</column>
+            <column name="rating">3/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenbottom</column>
+            <column name="dbidnum">19</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Black and White Striped Bottoms</column>
+            <column name="price">$40.00</column>
+            <column name="rating">5/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenbottom</column>
+            <column name="dbidnum">20</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Black Dr. Martens Classic Boots</column>
+            <column name="price">$180.00</column>
+            <column name="rating">5/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshoe</column>
+            <column name="dbidnum">21</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Black Patent Leather Boots</column>
+            <column name="price">$80.00</column>
+            <column name="rating">2/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshoe</column>
+            <column name="dbidnum">22</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Brown Birkenstock Slips</column>
+            <column name="price">$165.00</column>
+            <column name="rating">4/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshoe</column>
+            <column name="dbidnum">23</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Black Strappy Chunky Heels</column>
+            <column name="price">$50.00</column>
+            <column name="rating">3/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshoe</column>
+            <column name="dbidnum">24</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Vans Black Platform Sneakers</column>
+            <column name="price">$45.00</column>
+            <column name="rating">5/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshoe</column>
+            <column name="dbidnum">25</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Black Converse</column>
+            <column name="price">$35.00</column>
+            <column name="rating">4/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshoe</column>
+            <column name="dbidnum">26</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Fluffy Ugg Slippers</column>
+            <column name="price">$100.00</column>
+            <column name="rating">3/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshoe</column>
+            <column name="dbidnum">29</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Red Leather Boots</column>
+            <column name="price">$160.00</column>
+            <column name="rating">1/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshoe</column>
+            <column name="dbidnum">30</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Yellow Open Toed Heels</column>
+            <column name="price">$55.00</column>
+            <column name="rating">4/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshoe</column>
+            <column name="dbidnum">27</column>
+        </table>
+        <table name="clothing">
+            <column name="name">Floral Boots</column>
+            <column name="price">$90.00</column>
+            <column name="rating">1/5</column>
+            <column name="img"></column>
+            <column name="pglink">NULL</column>
+            <column name="type">womenshoe</column>
+            <column name="dbidnum">28</column>
+        </table>
+    </database>
+</pma_xml_export>
