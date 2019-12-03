@@ -1,0 +1,48 @@
+<html>
+<body>
+<form action="submit.php" method="POST">
+        <input type="text" name="search" />
+        <input type="submit" />
+    </form>
+
+
+</body>
+
+
+<script>
+var jsondatastring;
+var jsondata;
+$(document).ready(function()(
+	loadJson();
+))
+function loadJson() {
+	$.ajax((
+		url:"result.json",
+		dataType: "json",
+		type: "GET"
+		success: function(data)(
+		jsondatastring = JSON.string(data)
+		jsondata = JSON.parse(jsondatastring);
+		var table = document.getElementById("results");
+		var html = "<table class='table table-hover'>"
+		html += <tr><th>Artist</th><th>Compnay</th><th>Country</th><th>Price</th><th><Title</th><th>Year</th></tr>";
+		
+		for(var x in jsondata)(
+			var name = jsondata[x].name;
+			var price = jsondata[x].price;
+			var rating = jsondata[x].rating;
+			var img = jsondata[x].img;
+			var pglink = jsondata[x].pglink;
+			var type = jsondata[x].type;
+			var dbidnum = jsondata[x].dbidnum;
+			html += "<tr><td>" + name + "</td><td>" + price + "</td><td>" + rating + "</td><td>" + img + "</td><td>" + pglink + "</td><td>" + type + "</td><td>" + dbidnum + "</td><td>";
+		}
+		html += "</table>";
+		table.innerHTML = html;
+	}
+}}
+</script>
+</html>
+<form action="submit.php" method="POST">
+	<input type="text" name="search" placeholder="Search for Something..."
+	<input type="submit" value="results" />	
